@@ -225,7 +225,7 @@ defineProps({
           <h1 class="text-[24px] mt-[32px] mb-[12px] text-black font-bold">Email Marketing</h1>
           <h6>We use the latest technologies it voluptatem accusantium do loremque laudantium.</h6>
           <Link href="#">Read more -></Link>
-        </div>
+        </div>0
       </div>
     </section>
     <section class="w-full">
@@ -290,9 +290,7 @@ defineProps({
           <h1 class="text-[#1b1642] text-[3rem]">Popular Features That Your</h1>
           <h2 class="text-[#1b1642] text-[3.2rem] font-bold DM-Sans">Business Needs</h2>
           <p class="py-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan
-            in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur
-            adipiscing.
+            
           </p>
           <!-- Feature List -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 w-full">

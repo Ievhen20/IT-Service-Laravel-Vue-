@@ -1,6 +1,7 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+import Footer from '@/Components/Footer.vue';
 </script>
 
 <template>
@@ -13,9 +14,11 @@ import { Head } from '@inertiajs/vue3';
         <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
           <div class="p-6 text-gray-900">
             You're logged in!
+            Please contact with our IT  company for your successful project.
           </div>
         </div>
       </div>
     </div>
+    <Footer />
   </AuthenticatedLayout>
 </template>
