@@ -26,9 +26,17 @@ export default {
           '0%': { outlineWidth: '1px', opacity: '1' },
           '100%': { outlineWidth: '16px', opacity: '0' },
         },
+        rotateGradient: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
       },
       animation: {
         'outline-animation': 'outlineAnimation 1.5s infinite',
+        'rotateGradient': 'rotateGradient 3s linear infinite',
+      },
+      backgroundImage: {
+        'gradient-border': 'linear-gradient(to right, gray, white)',
       },
     },
   },
